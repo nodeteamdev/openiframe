@@ -1,5 +1,5 @@
 # [OpenIframe](https://github.com/ChechaValerii/openiframe#readme) 1.0.0 
-Build Iframe. Ignore X-Frame-Options, Content-Security-Policy, X-Content-Type-Options, X-Xss-Protection etc.
+Build ```<iframe>``` and ignore X-Frame-Options, Content-Security-Policy, X-Content-Type-Options, X-Xss-Protection etc. Normally such headers prevent embedding a web page in an ```<iframe>```
 
 * [Documentation](https://doxdox.org/ChechaValerii/openiframe#openiframe.es6.js)
 
