@@ -28,6 +28,7 @@ class OpenIframe {
         this.iframeHeight = parseFloat(options.height) || 600;
         this.append = options.append || false;
         this.src = options.src || '#';
+        this.proxyUrl = 'https://serene-hamlet-82201.herokuapp.com/'
 
         this.runPolyfills()
         this.validationContainer(() => {
@@ -116,7 +117,7 @@ class OpenIframe {
     createIframeElement() {
         const iframe = document.createElement('iframe');
 
-        iframe.src = this.src;
+        iframe.src = `${this.proxyUrl}?proxyHost=${this.src}`;
         iframe.width = this.iframeWidth;
         iframe.height = this.iframeHeight;
 

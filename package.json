@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/ChechaValerii/openiframe#readme",
   "devDependencies": {
-    "doxdox": "^3.0.0",
-    "doxdox-plugin-bootstrap": "^2.0.0"
+    "doxdox": "3.0.0",
+    "doxdox-plugin-bootstrap": "2.0.0"
   }
 }
