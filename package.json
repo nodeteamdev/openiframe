@@ -1,0 +1,32 @@
+{
+  "name": "openiframe",
+  "version": "1.0.0",
+  "description": "Ignore X-Frame-Options, Content-Security-Policy, X-Content-Type-Options, X-Xss-Protection etc.",
+  "main": "openiframe.es6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChechaValerii/openiframe.git"
+  },
+  "keywords": [
+    "openiframe",
+    "iframe",
+    "security",
+    "policy",
+    "x-frame",
+    "x-frame-options",
+    "protection"
+  ],
+  "author": "ChechaValerii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChechaValerii/openiframe/issues"
+  },
+  "homepage": "https://github.com/ChechaValerii/openiframe#readme",
+  "devDependencies": {
+    "doxdox": "^3.0.0",
+    "doxdox-plugin-bootstrap": "^2.0.0"
+  }
+}

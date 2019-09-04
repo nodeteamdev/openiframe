@@ -1,0 +1,12 @@
+node_modules
+bower_components
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.sonarlint
+.vscode
+.node_history
+.vscode
