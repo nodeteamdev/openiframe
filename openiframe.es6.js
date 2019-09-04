@@ -20,7 +20,7 @@ class OpenIframe {
          append: true
      })
      * @memberof OpenIframe
-     * @return iframe Element
+     * @returns iframe Element
      */
     constructor(options) {
         this.container = options.container;
