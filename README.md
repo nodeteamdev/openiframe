@@ -10,23 +10,7 @@ Build ```<iframe>``` and ignore X-Frame-Options, Content-Security-Policy, X-Cont
 ```
  <script src="https://cdn.jsdelivr.net/gh/ChechaValerii/openiframe/openiframe.es6.js"></script>
 ```
-#### new OpenIframe() 
-
-Create a new OpenIframe element
-
-
-
-
-
-
-##### Returns
-
-
-- `Void`
-
-
-
-#### OpenIframe.constructor(options) 
+#### OpenIframe(options) 
 
 Creates an instance of OpenIframe.
 
@@ -56,7 +40,7 @@ new OpenIframe({
    width: 800
    src: 'https://example.com',
    append: true
-})
+});
 ```
 
 
