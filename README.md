@@ -6,7 +6,10 @@ Build Iframe. Ignore X-Frame-Options, Content-Security-Policy, X-Content-Type-Op
 
 ### openiframe.es6.js
 
-
+### Install
+```
+ <script src="https://cdn.jsdelivr.net/gh/ChechaValerii/openiframe/openiframe.es6.js"></script>
+```
 #### new OpenIframe() 
 
 Create a new OpenIframe element
