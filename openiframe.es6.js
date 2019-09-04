@@ -1,16 +1,26 @@
 /**
+ * Create a new OpenIframe element
  * @class OpenIframe
  */
 class OpenIframe {
     /**
      * Creates an instance of OpenIframe.
      * @param {Object} options
-     * @type {DOM|string} options.container - css selector or DOM element
-     * @type {Number} options.width - iframe width
-     * @type {Number} options.height - iframe height
-     * @type {Boolean} options.append - append iframe to container, prepend by default
-     * @type {String} options.src - iframe src
+     * @param {DOM|string} options.container - css selector or DOM element
+     * @param {Number} options.width - iframe width
+     * @param {Number} options.height - iframe height
+     * @param {Boolean} options.append - append iframe to container, prepend by default
+     * @param {String} options.src - iframe src
+     * @example 
+     * new OpenIframe({
+         container: '#header',
+         height: 600,
+         width: 800
+         src: 'https://example.com',
+         append: true
+     })
      * @memberof OpenIframe
+     * @return iframe Element
      */
     constructor(options) {
         this.container = options.container;
@@ -25,10 +35,6 @@ class OpenIframe {
         });
     }
 
-    /**
-     * @private
-     * @memberof OpenIframe
-     */
     runPolyfills() {
         ((arr) => {
             arr.forEach((item) => {
@@ -81,11 +87,6 @@ class OpenIframe {
         })([Element.prototype, Document.prototype, DocumentFragment.prototype]);
     }
 
-    /**
-     * @private
-     * @param {Function} callback
-     * @memberof OpenIframe
-     */
     validationContainer(callback) {
         let valid = true;
 
@@ -112,10 +113,6 @@ class OpenIframe {
         }
     }
 
-    /**
-     * @private
-     * @memberof OpenIframe
-     */
     createIframeElement() {
         const iframe = document.createElement('iframe');
 
